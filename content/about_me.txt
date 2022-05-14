@@ -1,0 +1,14 @@
+<h3>My education:</h3>
+<p>
+I am a graduate of the IT school located in Poland. I have been interested in technology and computers since I was a child. At school, we learned programming in "Pascal", "C ++", "Delphi" or "HTML" or "Javascript". I finished school without any problems, I got into the university, but in my second year of studies I quit and went to the Netherlands.
+<p/>
+<h3>My career:</h3>
+<p>
+During the summer holidays, I went to Germany to earn money. In Germany, I worked in logistics, mainly in warehouses. At work, thanks to my communication skills, I had a good time. In 2015, as soon as I came to the Netherlands, I also started with them. After less than 2 years, I was able to be promoted to a coordinator, a person managing people. It was then that I acquired good soft skills as I was struggling with people's problems every day. I had to be communicative and impartial.
+</p>
+<p>
+In 2022, my desire to create something returned to me. I started working with learning macros in Excel. Then I refreshed my knowledge of HTML, CSS, SQL and mastered PHP. My goal for 2022 is to master Javascript along with popular frameworks such as "React".
+<p>
+<p>
+I hope that this site will develop as my skills grow.
+</p>

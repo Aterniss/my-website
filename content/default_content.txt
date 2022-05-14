@@ -1,0 +1,5 @@
+<h3>Welcome!</h3>
+<p>
+    I am happy that you found my website. If you are interested in my person, please visit the menu on the left site.
+
+</p>

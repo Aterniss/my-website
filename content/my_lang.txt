@@ -1,0 +1,12 @@
+<h3>My languages</h3>
+
+<h4>I currently speak three languages: Polish, English and Dutch:</h4>
+<p>
+-Polish is my mother tongue, its level is at the level of a university.
+</p>
+<p>
+-My English is good, I am good at communicating with people from all over the world in this language. I also have a friend from England who also thinks so. I would rate this language at B2 level.
+</p>
+<p>
+-My Dutch is communicative - I can train people in this language, I can easily communicate with state institutions. I would rate this language at the B1 / B2 level
+</p>

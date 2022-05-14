@@ -1,0 +1,437 @@
+/*--- variables ---*/
+:root {
+    --shadow: rgb(3, 250, 250);
+    --aside1-icons: rgba(28, 244, 4, 0.825);
+    --text-color: white;
+    --fb-color: #4267B2;
+    --linked: #0072b1;
+    --mail: #EA4335;
+    --git: #FFF;
+    --form-bg: rgba(251, 249, 249, 0.818);
+}
+/*--- Animation code ---*/
+@keyframes title-box-shadow {
+    from
+    {
+      
+    }
+    to
+    {
+        box-shadow:0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(3, 250, 250),
+        0 0 82px rgb(3, 250, 250),
+        0 0 92px rgb(3, 250, 250);
+    }
+    
+}
+/*----------- FORM --------------------------*/
+#form-size{
+    width: auto;
+    height: auto;
+}
+#wrapper-form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    min-height: 100%;
+  }
+  #wrapper-form > div {
+    display: block;
+    min-width: 50%;
+  }
+  .pool_name{
+    order: 1;
+    flex: 1 50%
+  }
+  .pool_tel{
+    order: 3;
+    flex: 2 50%;
+
+  }
+  .pool_email{
+    order: 2;
+  }
+  .pool_email2{
+    order: 4;
+  }
+  .pool_msg{
+    order: 6;
+    flex: 1 100%;
+
+  }
+  .pool_title{
+    order: 5;
+    flex: 1 100%;
+  }
+  .pool_submit{
+    order: 7;  
+    flex: 100%;
+  }
+  #feed{
+      order: 8;
+  }
+
+  input{
+    margin: auto;
+    float: center;
+    min-width: 100px;
+    min-height: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: medium;
+  }
+  textarea{
+    font-weight: bold;
+    font-size: medium;
+    resize: none;
+  }
+  input:focus, textarea:focus{
+    box-shadow:0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--shadow),
+    0 0 82px var(--shadow),
+    0 0 92px var(--shadow);
+  }
+  #pool_msg{
+    min-height: 120px;
+    min-width: 80%;
+  }
+  #submit:active{
+    background-color: var(--aside1-icons);
+}
+
+
+/*------- body ----------------------*/
+body{
+   background: url("img/bg-color.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+#wrapper{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+* > h3 {
+    color: var(--shadow);
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+/*----------------- header -----------------------*/
+
+#wrapper-header{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+#home-title{
+    order: 1;
+    flex: 18;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+#home-title > h1 {
+    color: var(--aside1-icons);
+    text-shadow: 0 0 20px var(--shadow),
+                 0 0 45px var(--shadow),
+                 0 0 90px var(--shadow);
+    padding: 30px;
+    border-radius: 50%;
+    width: fit-content;
+    margin: auto;
+    animation-name: title-box-shadow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+ 
+}
+#home-icon{
+    order: 1;
+    flex: 1;
+    width: fit-content;
+    margin-bottom: auto;
+    text-align: left;
+    color: whitesmoke;
+
+}
+#home-icon > h3 > span {
+    color: var(--aside1-icons);
+}
+
+#language-page{
+    order:3;
+    flex: 3;  
+}
+#lang-title{
+    margin-bottom: 10px;
+    color: var(--aside1-icons);
+    text-shadow: 0 0 20px var(--shadow),
+    0 0 45px var(--shadow),
+    0 0 90px var(--shadow);
+}
+
+
+#lang-flags{
+    padding: 3px 0px;
+    border-radius: 10px;
+}
+#lang-flags > a > img:hover{
+    width: 50px;
+    height: 40px;
+}
+.img-prop{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/*----------------- main ---------------------------*/
+
+
+/* -------------------- aside1 ---------------   */
+
+#bg-aside1{ 
+    background-color: rgba(14, 14, 14, 0.553);
+    border-radius: 30px;
+    display: block;
+    padding: 1px 0px;
+}
+.icon-iside1{
+    margin: 20px 0px;
+    padding: 3px;
+}
+.icon-iside1 > a{
+   display: block;
+   border-radius: 10px;
+   padding: 6px;
+}
+
+.icon-iside1 > *{
+    color: rgba(4, 244, 20, 0.779);
+}
+.icon-iside1 > a:hover{
+    color: var(--shadow);
+    box-shadow:0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--shadow),
+    0 0 82px var(--shadow),
+    0 0 92px var(--shadow),
+    0 0 102px var(--shadow),
+    0 0 151px var(--shadow);
+}
+.icon-iside1 > a:active {
+    color: var(--shadow);
+    box-shadow:0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px var(--mail),
+    0 0 82px var(--mail),
+    0 0 92px var(--mail),
+    0 0 102px var(--mail),
+    0 0 151px var(--mail);
+}
+/*--------------- aside2 --------------------------*/
+
+#bg-aside2{
+    background-color: rgba(14, 14, 14, 0.688);
+    border-radius: 30px;
+    min-height: 300px;
+    padding: 1px;
+}
+/*------------ footer -----------------------------*/
+    footer > div {
+        display: inline-block;
+        margin: 0px 5px;
+    }
+    
+    #fb > a {
+        color: var(--fb-color);
+    }
+    #fb > a > svg:hover {
+        border-radius: 30px;
+        box-shadow: 0 0 10px var(--shadow), 0 0 30px var(--shadow), 0 0 55px var(--shadow);
+    }
+    #linked > a {
+        color: var(--linked);
+    }
+    #mail > a {
+        color: var(--mail);
+    }
+    #git > a {
+        color: var(--git);
+    }
+    footer > div > a > svg:hover{
+        border-radius: 30px;
+        box-shadow:
+         0 0 10px var(--git),
+         0 0 30px var(--git),
+         0 0 55px var(--git),
+         0 0 92px var(--shadow),
+         0 0 130px var(--shadow),
+         0 0 155px var(--shadow),
+         0 0 192px var(--shadow);
+    }
+    footer > div > a > svg:active{
+        border-radius: 30px;
+        box-shadow:
+         0 0 10px var(--git),
+         0 0 30px var(--git),
+         0 0 55px var(--git),
+         0 0 92px var(--mail),
+         0 0 130px var(--mail),
+         0 0 155px var(--mail),
+         0 0 192px var(--mail),
+         0 0 242px var(--mail);
+    }
+    
+    #linked > a > svg:hover {
+        border-radius: 5px;
+        box-shadow: 
+        0 0 10px var(--git),
+        0 0 30px var(--git),
+        0 0 55px var(--git),
+        0 0 92px var(--shadow),
+        0 0 130px var(--shadow),
+        0 0 155px var(--shadow),
+        0 0 192px var(--shadow);
+    }
+    #linked > a > svg:active {
+        border-radius: 5px;
+        box-shadow: 
+        0 0 10px var(--git),
+        0 0 30px var(--git),
+        0 0 55px var(--git),
+        0 0 92px var(--mail),
+        0 0 130px var(--mail),
+        0 0 155px var(--mail),
+        0 0 192px var(--mail),
+        0 0 242px var(--mail);
+    }
+    #fb > a > svg:hover {
+        border-radius: 30px;
+        box-shadow: 
+        0 0 10px var(--git),
+        0 0 30px var(--git),
+        0 0 55px var(--git),
+        0 0 92px var(--shadow),
+        0 0 130px var(--shadow),
+        0 0 155px var(--shadow),
+        0 0 192px var(--shadow);
+    }
+
+/*------------------- Desktop version --------------------------*/
+@media all and (min-width: 900px) {
+    header{
+        flex: 1 100%;
+        order: 1;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+        min-height: 100px;
+    }
+    main{
+        margin: 0px 40px;
+        order: 3;
+        flex: 3;
+        padding: 30px;
+        text-justify: inter-word;
+        background-color: rgba(14, 14, 14, 0.688);
+        border-radius: 30px;
+        min-height: fit-content;
+    }
+    #aside1{
+        order: 2;
+        flex: 0.25;
+        min-height: 200px;
+    }
+    #aside2{
+        order: 4;
+        flex: 0;
+    }
+    .hidden{
+        display: none;
+    }
+    footer{
+        order: 5;
+        flex: 1 100%;
+        margin-top: 50px;
+        justify-content: flex-end;
+        min-height: 110px;
+    }    
+}
+  
+/*-------------------- Mobile version ------------------------*/
+
+@media all and (max-width: 900px) {
+    header{
+        flex: 1 100%;
+        order: 1;
+        justify-content: center;
+        margin-bottom: 40px;
+        min-height: 100px;
+    }
+    main{
+        margin-top: 40px;
+        order: 3;
+        flex: 1 100%;
+        padding: 30px;
+        text-justify: inter-word;
+        background-color: rgba(14, 14, 14, 0.688);
+        border-radius: 30px;
+        width: 100%;
+        min-height: fit-content;
+    }
+    #aside1{
+        order: 2;
+        flex: 1 100%;
+    }
+    .icon-iside1{
+        margin: 20px 0px;
+        padding: 3px;
+        display: inline-block;
+    }
+    .icon-iside1 > a{
+       display: inline-block;
+       border-radius: 10px;
+       padding: 6px;
+       margin: 0px auto;
+    }
+    #aside2{
+        flex: 0;
+        order: 4;
+    }
+    .hidden{
+        display: none;
+    }
+    footer{
+        order: 5;
+        flex: 1 100%;
+        margin-top: 50px;
+        justify-content: flex-end;
+        min-height: 110px;
+    }
+}
